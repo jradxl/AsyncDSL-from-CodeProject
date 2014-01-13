@@ -1,2 +1,0 @@
-C:\Users\jradley\Documents\Visual Studio 2012\Templates\ItemTemplates\CSharp\1033\AsyncDsl.zip
-C:\Users\jradley\Documents\Visual Studio 2012\Templates\ItemTemplates\VisualBasic\1033\AsyncDsl.zip

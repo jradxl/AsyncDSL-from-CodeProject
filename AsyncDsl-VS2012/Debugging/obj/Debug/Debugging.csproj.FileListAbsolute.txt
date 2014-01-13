@@ -1,2 +1,0 @@
-C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Debugging\bin\Debug\Debugging.exe.config
-C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Debugging\obj\Debug\Debugging.csprojResolveAssemblyReference.cache

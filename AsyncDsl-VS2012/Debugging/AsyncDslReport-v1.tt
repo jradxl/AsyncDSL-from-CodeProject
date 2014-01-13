@@ -1,0 +1,30 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ AsyncDsl processor="AsyncDslDirectiveProcessor" requires="fileName='Sample.async'" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ import namespace="System.Reflection" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#
+  Action<object> dumpProps = (o => 
+	{ 
+    foreach (PropertyInfo pi in o.GetType().GetProperties()) 
+      WriteLine("// " + pi.Name + "=" + pi.GetValue(o, new object[0]) ?? "null");
+	});
+  
+  Action<object> dumpMethods = (o => 
+	{
+    foreach (MethodInfo mi in o.GetType().GetMethods()) WriteLine("// {0}", mi.Name);
+	});
+
+	WriteLine(""); 
+	WriteLine("// FullNamme: {0}", ExampleModel.ToString());
+
+	WriteLine(""); 
+	WriteLine("// Properties:");
+	dumpProps(ExampleModel);
+
+	WriteLine(""); 
+	WriteLine("// Methods:");
+	dumpMethods(ExampleModel);
+#>

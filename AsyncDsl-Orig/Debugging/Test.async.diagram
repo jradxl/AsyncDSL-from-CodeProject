@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.625, 8.5" name="Test">
+  <exampleModelMoniker Id="bd72e86d-fff9-400d-8d08-4673edb2aed2" />
+  <nestedChildShapes>
+    <threadSwimLane Id="9cde8b8b-83e7-4e3f-a26b-aa04a1015420" absoluteBounds="0, 0, 12.625, 8.5">
+      <threadMoniker Id="4940038d-1272-4b03-902a-fa0a6a232841" />
+      <nestedChildShapes>
+        <operationShape Id="76f6c173-89e5-4b72-8935-b8086c0e1a45" absoluteBounds="2.75, 0.875, 1.5, 1">
+          <operationMoniker Id="ea94bd7d-0e0b-4735-815f-52e2b2e1c71b" />
+        </operationShape>
+      </nestedChildShapes>
+    </threadSwimLane>
+    <commentShape Id="6abb0cd5-68dd-403e-ab14-b7c359baaf3e" absoluteBounds="5.5, 0.875, 1.5, 1">
+      <commentMoniker Id="8fe218e2-e73d-4256-9cae-f093595be625" />
+    </commentShape>
+    <commentConnector edgePoints="[(4.25 : 1.375); (5.5 : 1.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="5b3ab30b-6849-4013-95a7-db81e5bcc3ec">
+      <nodes>
+        <operationShapeMoniker Id="76f6c173-89e5-4b72-8935-b8086c0e1a45" />
+        <commentShapeMoniker Id="6abb0cd5-68dd-403e-ab14-b7c359baaf3e" />
+      </nodes>
+    </commentConnector>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

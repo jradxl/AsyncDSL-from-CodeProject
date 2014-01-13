@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="Microsoft.VisualStudio.Modeling.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="2c1ffef3-1a5a-4a2d-9a62-2ef72f7a3e28" Timestamp="633310154740000000" />
+  <Assembly Name="Microsoft.VisualStudio.Modeling.Sdk.Diagrams, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="e930f04b-64bc-4388-864a-ecc05fb94a61" Timestamp="633310154740000000" />
+  <Assembly Name="Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="6a120a1b-4d6a-48d2-b4cb-cab4778b9265" Timestamp="633310154740000000" />
+  <Assembly Name="Microsoft.VisualStudio.TextTemplating, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="e8b4b425-66e4-4352-99e4-ba49c463b08f" Timestamp="633310154740000000" />
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="72e0204f-abc0-4aeb-8d5d-c653318164f8" Timestamp="633529608480000000" XmlDocIndexTimestamp="633489931300000000" />
+  <Assembly Name="Microsoft.VisualStudio.Modeling.Sdk.Shell, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="1936487b-8cb7-41f5-90a2-8e3f12614399" Timestamp="633310154740000000" />
+  <Assembly Name="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="f38abc96-7f31-4578-8a8b-f8932eea91ea" Timestamp="633310154740000000" XmlDocIndexTimestamp="633259186800000000" />
+  <Assembly Name="Microsoft.VisualStudio.Shell.9.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="3aab53ad-9650-4e6b-88db-bd209bc68c16" Timestamp="633310154740000000" XmlDocIndexTimestamp="633299675260000000" />
+  <Assembly Name="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="19a7a9c8-b57d-446d-af8b-b1478c64ac4f" Timestamp="633310154740000000" XmlDocIndexTimestamp="633281694960000000" />
+  <Assembly Name="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="bdc5cc60-9a7d-40fe-9175-2ea886afa32f" Timestamp="633276299380000000" XmlDocIndexTimestamp="633280451060000000" />
+  <Assembly Name="Microsoft.VisualStudio.Shell.Interop.9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="acc5a06c-4dfd-436f-b25c-469a75bfe9b5" Timestamp="633310154740000000" />
+  <Assembly Name="Microsoft.VisualStudio.TextManager.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="8c4588a5-ade0-49b0-a28f-127ce9141e73" Timestamp="633310154740000000" XmlDocIndexTimestamp="633270402800000000" />
+  <Assembly Name="Microsoft.VisualStudio.TextTemplating.VSHost, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="dca28226-4c64-494d-82d5-50c704c5c8a4" Timestamp="633310154740000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.942.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="27ad5ff7-daea-4d4f-8448-3a97852b5cbc" Timestamp="633602864620000000" XmlDocIndexTimestamp="633602864620000000" />
+</Assemblies>

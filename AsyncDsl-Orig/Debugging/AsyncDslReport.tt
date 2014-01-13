@@ -1,0 +1,141 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" 
+    language="C#v3.5" #>
+<#@ output extension=".cs" #>
+<#@ AsyncDsl processor="AsyncDslDirectiveProcessor" requires="fileName='Sample.async'" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ import namespace="System.Reflection" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#
+  Action<object> dumpProps = (o => { 
+    foreach (PropertyInfo pi in o.GetType().GetProperties()) 
+      WriteLine("" + pi.Name + "=" + pi.GetValue(o, new object[0]) ?? "null");});
+  Action<object> dumpMethods = (o => {
+    foreach (MethodInfo mi in o.GetType().GetMethods()) WriteLine(mi.Name);});
+   
+  foreach (Thread t in ExampleModel.Threads)
+  {
+    // make sets for input and output operations
+    HashSet<string> acceptingOps = new HashSet<string>();
+    HashSet<string> sendingOps = new HashSet<string>();
+    HashSet<string> continueOps = new HashSet<string>();
+    HashSet<string> continuedOps = new HashSet<string>();
+  
+    WriteLine("namespace Debugging");
+    WriteLine("{");
+    PushIndent("  ");
+    WriteLine("using System.Threading;");
+    WriteLine(string.Empty);
+    WriteLine("partial class " + t.Name);
+    WriteLine("{");
+    PushIndent("  ");
+    IEnumerable<Operation> ops = t.FlowElements.OfType<Operation>(); 
+    foreach (Operation op in ops)
+    {
+      bool accepting = op.SourceFlowElements.OfType<Operation>().Count() > 0;
+      bool sending = op.TargetFlowElements.OfType<Operation>().Count() > 0;
+      bool continuing = op.TargetContinuationFlowElements.OfType<Operation>().Count() > 0;
+      bool continued = op.SourceContinuationFlowElements.OfType<Operation>().Count() > 0;
+      if (accepting) acceptingOps.Add(op.Name);
+      if (sending) sendingOps.Add(op.Name);
+      if (continuing) continueOps.Add(op.Name);
+      if (continued) continuedOps.Add(op.Name);
+    }
+    
+    // each accepting or continuted object has a lock
+    foreach (string s in acceptingOps.Concat(continuedOps))
+      WriteLine(string.Format("private readonly object {0}Lock = new object();", s));
+      
+    // each sending object has a flag
+    foreach (string s in sendingOps)
+      WriteLine(string.Format("private bool {0}IsDone;", s));
+      
+    // each continuation object has a flag
+    foreach (string s in sendingOps)
+      WriteLine(string.Format("private bool {0}Started;", s));
+      
+    // make a function for each operation
+    foreach (Operation op in ops)
+    {
+      WriteLine("protected internal void " + op.Name + "()");
+      WriteLine("{");
+      PushIndent("  ");
+      
+      // is anyone waiting for us to start?
+      if (continueOps.Contains(op.Name))
+      {
+        foreach (Operation o in op.TargetContinuationFlowElements.OfType<Operation>())
+        {
+          // lock on _their_ lock
+          WriteLine("lock(" + o.Name + "Lock)");
+          WriteLine("{");
+          PushIndent("  ");
+          
+          // we're done, so say so
+          WriteLine("" + op.Name + "IsDone = true;");
+          // and pulse
+          WriteLine("Monitor.PulseAll(" + o.Name + "Lock);");
+          
+          PopIndent();
+          WriteLine("}");
+        }
+      }
+      
+      // are we waiting on anyone?
+      if (acceptingOps.Contains(op.Name) || continuedOps.Contains(op.Name))
+      {
+        // lock on _our_ lock
+        WriteLine("lock(" + op.Name + "Lock)");
+        Write("  if(!(");
+        string [] flags = 
+          op.SourceContinuationFlowElements.OfType<Operation>().Select(o => o.Name + "Started")
+            .Concat(op.SourceFlowElements.OfType<Operation>().Select(o => o.Name + "IsDone")).ToArray();
+        for (int i = 0; i < flags.Length; ++i)
+        {
+          Write(flags[i]);
+          if (i+1 != flags.Length)
+            Write(" && ");
+        }
+        WriteLine("))");
+        WriteLine("    Monitor.Wait(" + op.Name + "Lock);");
+      }
+      
+      WriteLine("" + op.Name + "Impl();");
+      
+      // are we blocking anyone? if so, unblock them
+      if (sendingOps.Contains(op.Name))
+      {
+        foreach (Operation o in op.TargetFlowElements.OfType<Operation>())
+        {
+          // lock on _their_ lock
+          WriteLine("lock(" + o.Name + "Lock)");
+          WriteLine("{");
+          PushIndent("  ");
+          
+          // we're done, so say so
+          WriteLine("" + op.Name + "IsDone = true;");
+          // and pulse
+          WriteLine("Monitor.PulseAll(" + o.Name + "Lock);");
+          
+          PopIndent();
+          WriteLine("}");
+        }
+      }
+      
+      PopIndent();
+      WriteLine("}");
+      
+      
+    }
+    foreach (Operation op in ops)
+    {
+      // WriteLine("partial void " + op.Name + "Impl();");
+    }
+    
+    PopIndent();
+    WriteLine("}");
+    PopIndent();
+    WriteLine("}");
+  }
+#>

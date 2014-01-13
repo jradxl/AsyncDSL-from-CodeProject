@@ -1,0 +1,8 @@
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\obj\Debug\DmitriNesteruk.AsyncDsl.GeneratedCode.DomainModelResx.resources
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\bin\Debug\GeneratedCode\AsyncDslSchema.xsd
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\bin\Debug\DmitriNesteruk.AsyncDsl.Dsl.dll
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\bin\Debug\DmitriNesteruk.AsyncDsl.Dsl.pdb
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\obj\Debug\DmitriNesteruk.AsyncDsl.Dsl.dll
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\obj\Debug\DmitriNesteruk.AsyncDsl.Dsl.pdb
+C:\VSP\VS12\DSL-Examples\AsyncDsl\AsyncDsl\Dsl\obj\Debug\Dsl.csprojResolveAssemblyReference.cache

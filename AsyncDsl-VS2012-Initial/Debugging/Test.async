@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel dslVersion="1.0.0.0" Id="bd72e86d-fff9-400d-8d08-4673edb2aed2" xmlns="http://schemas.microsoft.com/dsltools/AsyncDsl">
+  <threads>
+    <thread Id="4940038d-1272-4b03-902a-fa0a6a232841" name="Thread1">
+      <flowElements>
+        <operation Id="ea94bd7d-0e0b-4735-815f-52e2b2e1c71b">
+          <comments>
+            <commentMoniker Id="8fe218e2-e73d-4256-9cae-f093595be625" />
+          </comments>
+        </operation>
+      </flowElements>
+    </thread>
+  </threads>
+  <comments>
+    <comment Id="8fe218e2-e73d-4256-9cae-f093595be625" />
+  </comments>
+</exampleModel>

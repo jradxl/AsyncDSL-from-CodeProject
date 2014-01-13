@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" isCompleteView="false" name="Sample">
+  <exampleModelMoniker Id="6417c1d1-3d43-48e7-b1f2-0d97f871e768" />
+  <nestedChildShapes>
+    <threadSwimLane Id="7e807055-6d63-487a-8484-40f58c6f8a02" absoluteBounds="0, 0, 11, 8.5">
+      <processMoniker Id="f70b2841-28bc-4b23-937e-ce71d1edaebd" />
+      <nestedChildShapes>
+        <startShape Id="333e8573-43b2-418c-8f94-775fa4de2d9c" absoluteBounds="3, 1, 0.37531402707099915, 0.37450316548347473">
+          <startMoniker Id="6c527e52-511b-4160-aa14-565738a0366d" />
+        </startShape>
+        <operationShape Id="eecb0569-63e8-42a8-bd19-861a9804e8da" absoluteBounds="1.5, 1.875, 1.5, 1">
+          <operationMoniker Id="d05df601-920b-4182-9b50-4f921e85d093" />
+        </operationShape>
+        <operationShape Id="2c89bbc4-9cd0-4c0e-a669-02107113c242" absoluteBounds="3.75, 1.875, 1.5, 1">
+          <operationMoniker Id="e5462133-07c7-4894-974e-75fd5f7bb113" />
+        </operationShape>
+        <operationShape Id="9d0517c0-4a4a-4088-8ffd-433d0133f379" absoluteBounds="0.5, 3.375, 1.5, 1">
+          <operationMoniker Id="2fdd7edc-d3b5-4175-86b5-966efdfa46aa" />
+        </operationShape>
+        <operationShape Id="e18f787a-5703-4d19-9827-ee220fe9305c" absoluteBounds="2.5, 3.375, 1.5, 1">
+          <operationMoniker Id="3bf08bec-06e2-4492-9a71-07c25d0377ef" />
+        </operationShape>
+        <operationShape Id="2a6174b4-28f8-4527-8859-828a187a670a" absoluteBounds="4.625, 3.375, 1.5, 1">
+          <operationMoniker Id="3b09792d-2252-40d1-9113-e9f572cf2cf6" />
+        </operationShape>
+        <finishShape Id="eb526747-d8ad-4548-9d67-9a6a9b70a205" absoluteBounds="5.25, 4.875, 0.38397544622421265, 0.38355830311775208">
+          <finishMoniker Id="579fcb2e-ea78-4cf7-9a3d-e028f67183fa" />
+        </finishShape>
+        <finishToStartConnector edgePoints="[(3.03125 : 1.37450316548347); (2.35416666666667 : 1.875)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <startShapeMoniker Id="333e8573-43b2-418c-8f94-775fa4de2d9c" />
+            <operationShapeMoniker Id="eecb0569-63e8-42a8-bd19-861a9804e8da" />
+          </nodes>
+        </finishToStartConnector>
+        <finishToStartConnector edgePoints="[(3.375314027071 : 1.32291666666667); (4.47916666666667 : 1.875)]" fixedFrom="Caller" fixedTo="Caller" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <startShapeMoniker Id="333e8573-43b2-418c-8f94-775fa4de2d9c" />
+            <operationShapeMoniker Id="2c89bbc4-9cd0-4c0e-a669-02107113c242" />
+          </nodes>
+        </finishToStartConnector>
+        <finishToStartConnector edgePoints="[(2.75 : 2.875); (2.75 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <operationShapeMoniker Id="eecb0569-63e8-42a8-bd19-861a9804e8da" />
+            <operationShapeMoniker Id="e18f787a-5703-4d19-9827-ee220fe9305c" />
+          </nodes>
+        </finishToStartConnector>
+        <finishToStartConnector edgePoints="[(2 : 3.875); (2.5 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <operationShapeMoniker Id="9d0517c0-4a4a-4088-8ffd-433d0133f379" />
+            <operationShapeMoniker Id="e18f787a-5703-4d19-9827-ee220fe9305c" />
+          </nodes>
+        </finishToStartConnector>
+        <finishToStartConnector edgePoints="[(4 : 3.875); (4.625 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <operationShapeMoniker Id="e18f787a-5703-4d19-9827-ee220fe9305c" />
+            <operationShapeMoniker Id="2a6174b4-28f8-4527-8859-828a187a670a" />
+          </nodes>
+        </finishToStartConnector>
+        <finishToStartConnector edgePoints="[(4.9375 : 2.875); (4.9375 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <operationShapeMoniker Id="2c89bbc4-9cd0-4c0e-a669-02107113c242" />
+            <operationShapeMoniker Id="2a6174b4-28f8-4527-8859-828a187a670a" />
+          </nodes>
+        </finishToStartConnector>
+        <startToStartConnector edgePoints="[(1.75 : 2.875); (1.75 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="7b7bfcc1-d71c-4088-a72c-4b336ec3eecb">
+          <nodes>
+            <operationShapeMoniker Id="eecb0569-63e8-42a8-bd19-861a9804e8da" />
+            <operationShapeMoniker Id="9d0517c0-4a4a-4088-8ffd-433d0133f379" />
+          </nodes>
+        </startToStartConnector>
+        <finishToStartConnector edgePoints="[(5.44198772311211 : 4.375); (5.44198772311211 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="46117c11-4f87-4e96-a2cb-9d4b83433583">
+          <nodes>
+            <operationShapeMoniker Id="2a6174b4-28f8-4527-8859-828a187a670a" />
+            <finishShapeMoniker Id="eb526747-d8ad-4548-9d67-9a6a9b70a205" />
+          </nodes>
+        </finishToStartConnector>
+      </nestedChildShapes>
+    </threadSwimLane>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

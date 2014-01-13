@@ -1,0 +1,31 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AE405812-FFDE-4B93-8228-E4EF0C509086/f:Commands.vsct" caret="899" scrollPosition="0|0" />
+      <File id="AE405812-FFDE-4B93-8228-E4EF0C509086/d:ProjectItemTemplates/f:VisualBasic.tt" caret="1187" scrollPosition="0|0" />
+      <File id="AE405812-FFDE-4B93-8228-E4EF0C509086/d:ProjectItemTemplates/f:CSharp.tt" caret="700" scrollPosition="0|0" />
+      <File id="AE405812-FFDE-4B93-8228-E4EF0C509086/d:ProjectItemTemplates/f:CSharp.vstemplate" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

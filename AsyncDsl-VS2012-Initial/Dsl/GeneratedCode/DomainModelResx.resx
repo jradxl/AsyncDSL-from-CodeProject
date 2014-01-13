@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DmitriNesteruk.AsyncDsl.AsyncDslDomainModel.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.AsyncDsl</value>
+    <comment>Description for DslLibrary &apos;AsyncDsl&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.AsyncDslDomainModel.DisplayName" xml:space="preserve">
+    <value>AsyncDsl</value>
+    <comment>DisplayName for DslLibrary &apos;AsyncDsl&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModel.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleModel&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModel.DisplayName" xml:space="preserve">
+    <value>Example Model</value>
+    <comment>DisplayName for DomainClass &apos;ExampleModel&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Process.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Process</value>
+    <comment>Description for DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Process/Name.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Process.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Process/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Process&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Comment.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Comment</value>
+    <comment>Description for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Comment/Text.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Comment.Text</value>
+    <comment>Description for DomainProperty &apos;Text&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Comment/Text.DisplayName" xml:space="preserve">
+    <value>Text</value>
+    <comment>DisplayName for DomainProperty &apos;Text&apos; on DomainClass &apos;Comment&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElement</value>
+    <comment>Description for DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElement.DisplayName" xml:space="preserve">
+    <value>Flow Element</value>
+    <comment>DisplayName for DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Operation</value>
+    <comment>Description for DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation.DisplayName" xml:space="preserve">
+    <value>Operation</value>
+    <comment>DisplayName for DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation/Name.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Operation.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation/Description.Description" xml:space="preserve">
+    <value>Describe the operation - this will be emitted as a comment.</value>
+    <comment>Description for DomainProperty &apos;Description&apos; on DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Operation/Description.DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>DisplayName for DomainProperty &apos;Description&apos; on DomainClass &apos;Operation&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Start.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Start</value>
+    <comment>Description for DomainClass &apos;Start&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Start.DisplayName" xml:space="preserve">
+    <value>Start</value>
+    <comment>DisplayName for DomainClass &apos;Start&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Finish.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.Finish</value>
+    <comment>Description for DomainClass &apos;Finish&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.Finish.DisplayName" xml:space="preserve">
+    <value>Finish</value>
+    <comment>DisplayName for DomainClass &apos;Finish&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses</value>
+    <comment>Description for DomainClass &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses.DisplayName" xml:space="preserve">
+    <value>Example Model Has Processes</value>
+    <comment>DisplayName for DomainClass &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/ExampleModel.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses.ExampleModel</value>
+    <comment>Description for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/ExampleModel.DisplayName" xml:space="preserve">
+    <value>Example Model</value>
+    <comment>DisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/ExampleModel.PropertyDisplayName" xml:space="preserve">
+    <value>Processes</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/Process.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses.Process</value>
+    <comment>Description for DomainRole &apos;Process&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasProcesses/Process.PropertyDisplayName" xml:space="preserve">
+    <value>Example Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ExampleModelHasProcesses&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ProcessHasFlowElements</value>
+    <comment>Description for DomainClass &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements.DisplayName" xml:space="preserve">
+    <value>Process Has Flow Elements</value>
+    <comment>DisplayName for DomainClass &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/Process.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ProcessHasFlowElements.Process</value>
+    <comment>Description for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/Process.DisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>DisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/Process.PropertyDisplayName" xml:space="preserve">
+    <value>Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Process&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/FlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ProcessHasFlowElements.FlowElement</value>
+    <comment>Description for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/FlowElement.DisplayName" xml:space="preserve">
+    <value>Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ProcessHasFlowElements/FlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Process</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;ProcessHasFlowElements&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.OperationReferencesComments</value>
+    <comment>Description for DomainClass &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments.DisplayName" xml:space="preserve">
+    <value>Operation References Comments</value>
+    <comment>DisplayName for DomainClass &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Operation.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.OperationReferencesComments.Operation</value>
+    <comment>Description for DomainRole &apos;Operation&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Operation.DisplayName" xml:space="preserve">
+    <value>Operation</value>
+    <comment>DisplayName for DomainRole &apos;Operation&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Operation.PropertyDisplayName" xml:space="preserve">
+    <value>Comments</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Operation&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Comment.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.OperationReferencesComments.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationReferencesComments/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Operations</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;OperationReferencesComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasComments</value>
+    <comment>Description for DomainClass &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments.DisplayName" xml:space="preserve">
+    <value>Example Model Has Comments</value>
+    <comment>DisplayName for DomainClass &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/ExampleModel.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasComments.ExampleModel</value>
+    <comment>Description for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/ExampleModel.DisplayName" xml:space="preserve">
+    <value>Example Model</value>
+    <comment>DisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/ExampleModel.PropertyDisplayName" xml:space="preserve">
+    <value>Comments</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/Comment.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ExampleModelHasComments.Comment</value>
+    <comment>Description for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/Comment.DisplayName" xml:space="preserve">
+    <value>Comment</value>
+    <comment>DisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ExampleModelHasComments/Comment.PropertyDisplayName" xml:space="preserve">
+    <value>Example Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Comment&apos; on DomainRelationship &apos;ExampleModelHasComments&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementBlocks</value>
+    <comment>Description for DomainClass &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks.DisplayName" xml:space="preserve">
+    <value>Flow Element Blocks</value>
+    <comment>DisplayName for DomainClass &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/SourceFlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementBlocks.SourceFlowElement</value>
+    <comment>Description for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/SourceFlowElement.DisplayName" xml:space="preserve">
+    <value>Source Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/SourceFlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Target Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/TargetFlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementBlocks.TargetFlowElement</value>
+    <comment>Description for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/TargetFlowElement.DisplayName" xml:space="preserve">
+    <value>Target Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementBlocks/TargetFlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Source Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementBlocks&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementContinuations</value>
+    <comment>Description for DomainClass &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations.DisplayName" xml:space="preserve">
+    <value>Flow Element Continuations</value>
+    <comment>DisplayName for DomainClass &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/SourceFlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementContinuations.SourceFlowElement</value>
+    <comment>Description for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/SourceFlowElement.DisplayName" xml:space="preserve">
+    <value>Source Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/SourceFlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Target Continuation Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/TargetFlowElement.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FlowElementContinuations.TargetFlowElement</value>
+    <comment>Description for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/TargetFlowElement.DisplayName" xml:space="preserve">
+    <value>Target Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FlowElementContinuations/TargetFlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Source Continuation Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetFlowElement&apos; on DomainRelationship &apos;FlowElementContinuations&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ThreadSwimLane.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.ThreadSwimLane</value>
+    <comment>Description for DomainClass &apos;ThreadSwimLane&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.ThreadSwimLane.DisplayName" xml:space="preserve">
+    <value>Thread Swim Lane</value>
+    <comment>DisplayName for DomainClass &apos;ThreadSwimLane&apos;</comment>
+  </data>
+  <data name="ThreadSwimLaneNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.CommentShape.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.CommentShape</value>
+    <comment>Description for DomainClass &apos;CommentShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.CommentShape.DisplayName" xml:space="preserve">
+    <value>Comment Shape</value>
+    <comment>DisplayName for DomainClass &apos;CommentShape&apos;</comment>
+  </data>
+  <data name="CommentShapeTextDecoratorDefaultText" xml:space="preserve">
+    <value>TextDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationShape.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.OperationShape</value>
+    <comment>Description for DomainClass &apos;OperationShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.OperationShape.DisplayName" xml:space="preserve">
+    <value>Operation Shape</value>
+    <comment>DisplayName for DomainClass &apos;OperationShape&apos;</comment>
+  </data>
+  <data name="OperationShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.StartShape.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.StartShape</value>
+    <comment>Description for DomainClass &apos;StartShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.StartShape.DisplayName" xml:space="preserve">
+    <value>Start Shape</value>
+    <comment>DisplayName for DomainClass &apos;StartShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FinishShape.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FinishShape</value>
+    <comment>Description for DomainClass &apos;FinishShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FinishShape.DisplayName" xml:space="preserve">
+    <value>Finish Shape</value>
+    <comment>DisplayName for DomainClass &apos;FinishShape&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FinishToStartConnector.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.FinishToStartConnector</value>
+    <comment>Description for DomainClass &apos;FinishToStartConnector&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.FinishToStartConnector.DisplayName" xml:space="preserve">
+    <value>Finish To Start Connector</value>
+    <comment>DisplayName for DomainClass &apos;FinishToStartConnector&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.CommentConnector.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.CommentConnector</value>
+    <comment>Description for DomainClass &apos;CommentConnector&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.CommentConnector.DisplayName" xml:space="preserve">
+    <value>Comment Connector</value>
+    <comment>DisplayName for DomainClass &apos;CommentConnector&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.StartToStartConnector.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.StartToStartConnector</value>
+    <comment>Description for DomainClass &apos;StartToStartConnector&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.StartToStartConnector.DisplayName" xml:space="preserve">
+    <value>Start To Start Connector</value>
+    <comment>DisplayName for DomainClass &apos;StartToStartConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>AsyncDsl (*.async)|*.async</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>AsyncDsl Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.AsyncDslDiagram.Description" xml:space="preserve">
+    <value>Description for DmitriNesteruk.AsyncDsl.AsyncDslDiagram</value>
+    <comment>Description for DomainClass &apos;AsyncDslDiagram&apos;</comment>
+  </data>
+  <data name="DmitriNesteruk.AsyncDsl.AsyncDslDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;AsyncDslDiagram&apos;</comment>
+  </data>
+  <data name="AsyncDslToolboxTab" xml:space="preserve">
+    <value>AsyncDsl</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ProcessToolboxItem" xml:space="preserve">
+    <value>Process</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ProcessToolboxTooltip" xml:space="preserve">
+    <value>Creates a swimlane for a thread. All placed tasks will execute within it.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentToolboxItem" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentToolboxTooltip" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="OperationToolboxItem" xml:space="preserve">
+    <value>Operation</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="OperationToolboxTooltip" xml:space="preserve">
+    <value>Denotes an asynchronous operation.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FinishToStartConnectorToolboxItem" xml:space="preserve">
+    <value>Finish to Start</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FinishToStartConnectorToolboxTooltip" xml:space="preserve">
+    <value>Indicates that the source operation must finish before the target one can start.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="StartToolboxItem" xml:space="preserve">
+    <value>Start</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="StartToolboxTooltip" xml:space="preserve">
+    <value>Indicates the starting point for an asynchronous algorithm.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FinishToolboxItem" xml:space="preserve">
+    <value>Finish</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FinishToolboxTooltip" xml:space="preserve">
+    <value>Indicates the finish point for the asynchronous algorithm.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CommentConnectionToolboxItem" xml:space="preserve">
+    <value>Comment Connection</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CommentConnectionToolboxTooltip" xml:space="preserve">
+    <value>Comment Connection</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="StartToStartConnectorToolboxItem" xml:space="preserve">
+    <value>Start To Start</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="StartToStartConnectorToolboxTooltip" xml:space="preserve">
+    <value>Indicates that the source operation must start for the target operation to start.</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Start.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>StartShape shape image</comment>
+  </data>
+  <data name="FinishShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Finish.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FinishShape shape image</comment>
+  </data>
+  <data name="ProcessToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleShapeToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="OperationToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Operation.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FinishToStartConnectorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\FinishToStartBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StartToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Start.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FinishToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Finish.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CommentConnectionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ExampleConnectorToolBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StartToStartConnectorToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\StartToStartBitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

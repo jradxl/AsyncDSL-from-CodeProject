@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dsl", "Dsl\Dsl.csproj", "{D55BA406-5F6A-4E5B-B424-8044C45065E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DslPackage", "DslPackage\DslPackage.csproj", "{AE405812-FFDE-4B93-8228-E4EF0C509086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D55BA406-5F6A-4E5B-B424-8044C45065E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55BA406-5F6A-4E5B-B424-8044C45065E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55BA406-5F6A-4E5B-B424-8044C45065E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55BA406-5F6A-4E5B-B424-8044C45065E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE405812-FFDE-4B93-8228-E4EF0C509086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE405812-FFDE-4B93-8228-E4EF0C509086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE405812-FFDE-4B93-8228-E4EF0C509086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE405812-FFDE-4B93-8228-E4EF0C509086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

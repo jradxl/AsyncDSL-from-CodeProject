@@ -1,0 +1,9 @@
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\ItemTemplates\CSharp\1033\\AsyncDsl.zip
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\ItemTemplates\VisualBasic\1033\\AsyncDsl.zip
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\DmitriNesteruk.AsyncDsl.DslPackage.dll
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\DmitriNesteruk.AsyncDsl.Dsl.dll
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\DmitriNesteruk.AsyncDsl.DslPackage.pkgdef
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\extension.vsixmanifest
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\DmitriNesteruk.AsyncDsl.DslPackage.pdb
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\GeneratedCode\AsyncDslSchema.xsd
+C:\Users\jradley\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\DmitriNesteruk\AsyncDsl\1.0.0.0\\DmitriNesteruk.AsyncDsl.Dsl.pdb

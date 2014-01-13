@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel dslVersion="1.0.0.0" Id="6417c1d1-3d43-48e7-b1f2-0d97f871e768" xmlns="http://schemas.microsoft.com/dsltools/AsyncDsl">
+  <processes>
+    <process Id="f70b2841-28bc-4b23-937e-ce71d1edaebd" name="Breakfast">
+      <flowElements>
+        <start Id="6c527e52-511b-4160-aa14-565738a0366d">
+          <targetFlowElements>
+            <operationMoniker Id="d05df601-920b-4182-9b50-4f921e85d093" />
+            <operationMoniker Id="e5462133-07c7-4894-974e-75fd5f7bb113" />
+          </targetFlowElements>
+        </start>
+        <operation Id="d05df601-920b-4182-9b50-4f921e85d093" name="ToastBread">
+          <targetFlowElements>
+            <operationMoniker Id="3bf08bec-06e2-4492-9a71-07c25d0377ef" />
+          </targetFlowElements>
+          <targetContinuationFlowElements>
+            <operationMoniker Id="2fdd7edc-d3b5-4175-86b5-966efdfa46aa" />
+          </targetContinuationFlowElements>
+        </operation>
+        <operation Id="e5462133-07c7-4894-974e-75fd5f7bb113" name="MakeTea">
+          <targetFlowElements>
+            <operationMoniker Id="3b09792d-2252-40d1-9113-e9f572cf2cf6" />
+          </targetFlowElements>
+        </operation>
+        <operation Id="2fdd7edc-d3b5-4175-86b5-966efdfa46aa" name="GetJam">
+          <targetFlowElements>
+            <operationMoniker Id="3bf08bec-06e2-4492-9a71-07c25d0377ef" />
+          </targetFlowElements>
+        </operation>
+        <operation Id="3bf08bec-06e2-4492-9a71-07c25d0377ef" name="MakeSandwich">
+          <targetFlowElements>
+            <operationMoniker Id="3b09792d-2252-40d1-9113-e9f572cf2cf6" />
+          </targetFlowElements>
+        </operation>
+        <operation Id="3b09792d-2252-40d1-9113-e9f572cf2cf6" name="EatBreakfast">
+          <targetFlowElements>
+            <finishMoniker Id="579fcb2e-ea78-4cf7-9a3d-e028f67183fa" />
+          </targetFlowElements>
+        </operation>
+        <finish Id="579fcb2e-ea78-4cf7-9a3d-e028f67183fa" />
+      </flowElements>
+    </process>
+  </processes>
+</exampleModel>

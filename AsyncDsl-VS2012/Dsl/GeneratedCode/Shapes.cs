@@ -353,6 +353,24 @@ namespace DmitriNesteruk.AsyncDsl
 		{
 			base.InitializeResources(classStyleSet);
 			
+			// Outline pen settings for this shape.
+			DslDiagrams::PenSettings outlinePen = new DslDiagrams::PenSettings();
+			outlinePen.DashStyle = global::System.Drawing.Drawing2D.DashStyle.Dash;
+			// Property:
+			//	private static ArrayList customOutlineDashPattern;
+			//	protected static ArrayList CustomOutlineDashPattern
+			//	{
+			//		get
+			//		{
+			//			if(customOutlineDashPattern == null)
+			//				customOutlineDashPattern = new ArrayList(new float[] { 4.0F, 2.0F, 1.0F, 3.0F });
+			//			return customOutlineDashPattern;
+			//		}
+			//	}
+			// must be implemented in a partial class of DmitriNesteruk.AsyncDsl.CommentShape. This property should
+			// return an ArrayList of float values containing the custom DashPattern to use for this shape.
+			outlinePen.DashPattern = global::DmitriNesteruk.AsyncDsl.CommentShape.CustomOutlineDashPattern;
+			classStyleSet.OverridePen(DslDiagrams::DiagramPens.ShapeOutline, outlinePen);
 			// Fill brush settings for this shape.
 			DslDiagrams::BrushSettings backgroundBrush = new DslDiagrams::BrushSettings();
 			backgroundBrush.Color = global::System.Drawing.Color.FromArgb(255, 255, 255, 192);

@@ -3,9 +3,9 @@ AsyncDSL-from-CodeProject
 
 VS 2012 version of "Working with DSL Tools: An Asynchronous Graphical DSL" From CodeProject
 
-Working to generate DSL and DSLPackge, which can be opened in Debugging.sln -> Sample.async
-Debugging.exe does not run due to AsyncDslReport-Orig.tt not transforming, due to ExampleModel.Threads not present.
-
+Projects generate DSL and DSLPackge, which can be opened in Debugging.sln -> Sample.async
+Debugging.exe now runs. Fixed issue with AsyncDslReport.tt to use ExampleModel.Processes, and other minor issues.
+Incorporated the CommentShape Dash fix in DSL: CustomCode
 
 Jan 2014
 

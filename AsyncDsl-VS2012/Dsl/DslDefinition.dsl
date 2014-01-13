@@ -201,7 +201,7 @@
         </SwimLaneHasDecorators>
       </Decorators>
     </SwimLane>
-    <GeometryShape Id="fa11954b-1ed2-4a31-b68e-351bf0a1a5e6" Description="Description for DmitriNesteruk.AsyncDsl.CommentShape" Name="CommentShape" DisplayName="Comment Shape" Namespace="DmitriNesteruk.AsyncDsl" FixedTooltipText="Comment Shape" FillColor="255, 255, 192" InitialHeight="1" FillGradientMode="Vertical" Geometry="Rectangle">
+    <GeometryShape Id="fa11954b-1ed2-4a31-b68e-351bf0a1a5e6" Description="Description for DmitriNesteruk.AsyncDsl.CommentShape" Name="CommentShape" DisplayName="Comment Shape" Namespace="DmitriNesteruk.AsyncDsl" FixedTooltipText="Comment Shape" FillColor="255, 255, 192" InitialHeight="1" OutlineDashStyle="Dash" FillGradientMode="Vertical" Geometry="Rectangle">
       <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
         <TextDecorator Name="TextDecorator" DisplayName="Text Decorator" DefaultText="TextDecorator" />
       </ShapeHasDecorators>

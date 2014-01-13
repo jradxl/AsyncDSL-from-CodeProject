@@ -13,6 +13,7 @@ namespace Debugging
       b.Prepare();
 
       Console.WriteLine("All done");
+      Console.WriteLine("Press any key to quit.");
       Console.ReadKey();
     }
   }
